@@ -5,5 +5,5 @@ let num1 = Number(lines[0]) * 2
 let num2 = Number(lines[1]) * 3
 let num3 = Number(lines[2]) * 5
 
-let averageWeight = (num1 + num2 + num3) / 10
-console.log('MEDIA = ' + averageWeight.toFixed(1))
+let average = (num1 + num2 + num3) / 10
+console.log('MEDIA = ' + average.toFixed(1))
