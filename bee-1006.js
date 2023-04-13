@@ -1,4 +1,4 @@
-let input = require('fs').readFileSync('./dev/stdin', 'utf8')
+let input = require('fs').readFileSync('/dev/stdin', 'utf8')
 let lines = input.split('\n')
 
 let num1 = Number(lines[0]) * 2
