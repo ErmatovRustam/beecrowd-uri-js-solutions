@@ -2,7 +2,6 @@ var input = require('fs').readFileSync('./dev/stdin', 'utf8')
 var lines = input.split('\n')
 
 let scores = lines[0].split(' ')
-console.log(lines)
 let exam = Number(lines[1])
 let g1 = Number(scores[0])
 let g2 = Number(scores[1])
@@ -16,7 +15,7 @@ if (media >= 7) console.log('Aluno aprovado.')
 if (media >= 5 && media < 7) {
   let mediaFin = (exam + media) / 2
   console.log('Aluno em exame.')
-  console.log('Nota do exame: ' + exam)
+  console.log('Nota do exame: ' + lines[1])
   mediaFin >= 5
     ? console.log('Aluno aprovado.')
     : console.log('Aluno reprovado.')
